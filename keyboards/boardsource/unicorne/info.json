@@ -3,16 +3,16 @@
     "maintainer": "waffle87",
     "processor": "RP2040",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
+    "diode_direction": "COL2ROW" ,
     "features": {
         "audio": true,
         "bootmagic": true,
-        "encoder": true,
+        "encoder": false,
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
         "oled": true,
-        "pointing_device": true,
+        "pointing_device": false,
         "rgb_matrix": true
     },
     "indicators": {
