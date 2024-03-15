@@ -3,3 +3,4 @@ AUDIO_DRIVER = pwm_hardware
 POINTING_DEVICE_DRIVER = analog_joystick
 JOYSTICK_ENABLE = no
 VIA_ENABLE = yes
+WPM_ENABLE = yes
