@@ -18,5 +18,18 @@
 #define ANALOG_JOYSTICK_X_AXIS_PIN GP27
 #define POINTING_DEVICE_INVERT_Y
 #define POINTING_DEVICE_INVERT_X
+#define POINTING_DEVICE_ROTATION_270
+#define ANALOG_JOYSTICK_SPEED_REGULATOR 5
+#define SPLIT_POINTING_ENABLE
+#define POINTING_DEVICE_RIGHT
 #define SPLIT_WPM_ENABLE
 #define SPLIT_OLED_ENABLE
+
+
+
+// Configure the global tapping term (default: 200ms)
+#define TAPPING_TERM 350
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define QUICK_TAP_TERM 0
+

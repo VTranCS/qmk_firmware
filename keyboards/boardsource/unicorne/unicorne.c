@@ -19,6 +19,11 @@ oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
 // OLED_DRIVER_ENABLE = yes
 // WPM_ENABLE = yes
 
+// Right-hand home row mods
+#define HOME_J RCTL_T(KC_J)
+#define HOME_K RSFT_T(KC_K)
+#define HOME_L LALT_T(KC_L)
+#define HOME_SCLN RGUI_T(KC_SCLN)
 
 // WPM-responsive animation stuff here
 #    define IDLE_FRAMES 5
