@@ -9,7 +9,6 @@
         "bootmagic": true,
         "encoder": false,
         "extrakey": true,
-        "mousekey": true,
         "nkro": true,
         "oled": true,
         "pointing_device": true,
