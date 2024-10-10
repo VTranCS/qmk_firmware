@@ -25,7 +25,7 @@
 #define SPLIT_WPM_ENABLE
 #define SPLIT_OLED_ENABLE
 
-
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
 
 // Configure the global tapping term (default: 200ms)
 #define TAPPING_TERM 350
